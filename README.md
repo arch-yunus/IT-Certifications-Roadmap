@@ -27,50 +27,54 @@ Bu repo, IT endüstrisinde pratik uygulaması olan, teknik kapasiteyi gerçekten
 
 ### 1. CompTIA Security+ (SY0-701)
 Siber güvenliğe giriş seviyesindeki endüstri standardı ve marka bağımsız temel belgedir.
-* **Nedir:** Risk yönetimi, bilgi güvenliği temelleri, olay müdahalesi (incident response) ve farklı kriptografi formasyonlarının çerçevesini çizer.
-* **Kime Hitap Eder:** Güvenlik alanına ilk adım atanlar, sistem ve ağ yöneticileri ile devlet teşkilatları (DoD gereksinimleri).
-* **Sınav Formatı:** 90 dakikalık, en fazla 90 soruluk uygulamalı performans temelli sorular (PBQ) ve çoktan seçmeli test.
+* **Nedir:** Risk yönetimi, bilgi güvenliği temelleri, olay müdahalesi (incident response) ve şifreleme formasyonlarının çerçevesini çizer.
+* **Kime Hitap Eder:** Güvenlik alanına ilk adım atanlar, sistem ve ağ yöneticileri (Örn: DoD gereksinimleri).
+* **Sınav Formatı:** 90 dakikalık, en fazla 90 soruluk interaktif (PBQ) ve çoktan seçmeli test.
 * **Kapsamlı Hazırlık Yöntemi:**
-  - **Eğitim Materyali:** Professor Messer'in YouTube eğitim serisi sektör standardı olarak kabul edilir ve yeterlidir.
-  - **Pratik Ekosistemi:** Udemy üzerinden Jason Dion deneme sınavları alınarak PBQ (Performance Based Questions) tarzı interaktif sorulara alışılması gerekir.
+  - **Eğitim Materyali:** Professor Messer'in video seti ana kaynak olarak kabul edilir.
+  - **Pratik Ekosistemi:** Jason Dion deneme sınavlarıyla interaktif laboratuvar sorularına aşinalık kazanmak gereklidir.
 
 ### 2. OSCP (Offensive Security Certified Professional)
-Sektörün en saygı duyulan, uygulamalı sızma testi (penetration testing) sertifikası.
-* **Nedir:** Laboratuvar ortamı vererek hedef makineler üzerinde sızma testleri gerçekleştirilmesini bekler.
+Sektörün en saygı duyulan, laboratuvar temelli sızma testi (penetration testing) sertifikasıdır.
+* **Nedir:** Hedef makineler üzerinde sızma testleri gerçekleştirilmesini bekler.
 * **Kime Hitap Eder:** Güvenlik uzmanları ve Red Team üyeleri.
-* **Sınav Formatı:** **24 saatlik pratik sınav.** Belirtilen makineler hacklenip 24 saat içinde raporlanmalıdır.
+* **Sınav Formatı:** **24 saatlik pratik sınav.** Belirtilen makineler ele geçirilip 24 saat içinde raporlanmalıdır.
 * **Kapsamlı Hazırlık Yöntemi:**
-  - **Eğitim Materyali:** Offensive Security'nin sağladığı PEN-200 kursu ve laboratuvarları zorunlu ve ana kaynaktır.
-  - **Pratik Ekosistemi:** TJ_Null'un hazırladığı "OSCP benzeri HTB Makineleri" listesi çözülmelidir. 
-  - **Kritik Konular:** Windows/Linux Privilege Escalation (The Cyber Mentor) ile Active Directory sömürüsü sınavın kilit noktalarıdır.
+  - **Eğitim Materyali:** PEN-200 kursu ve laboratuvarları birincil kaynaktır.
+  - **Pratik Ekosistemi:** TJ_Null "OSCP benzeri makineler" listesi çözülmeli; Privilege Escalation (Hak Yükseltme) ve Active Directory konularına yoğunlaşılmalıdır.
 
 ### 3. OSEP (Offensive Security Experienced Penetration Tester)
-İleri seviye, gelişmiş güvenlik önlemlerini (AV/EDR atlatma) aşmaya odaklanır.
-* **Nedir:** Antivirüs atlatma, gelişmiş Active Directory saldırıları konularında uzmanlığı belgeler.
-* **Kime Hitap Eder:** Kıdemli Red Team üyeleri.
+İleri seviye penetrasyon testi standartlarını belirler. (AV/EDR atlatma odaklıdır).
+* **Nedir:** Antivirüs atlatma, gelişmiş AD saldırıları ve sistem güvenlik açıklarını sömürme uzmanlığını belgeler.
+* **Kime Hitap Eder:** Kıdemli Red Team uzmanları.
 * **Sınav Formatı:** **48 saatlik pratik sınav.**
 * **Kapsamlı Hazırlık Yöntemi:**
-  - **Eğitim Materyali:** PEN-300 kursu titizlikle çalışılmalıdır.
-  - **Pratik Ekosistemi:** Hypervisor üzerinde kendi AV ve EDR sisteminizin (Örn. Windows Defender) bulunduğu Active Directory labı oluşturulmalıdır.
-  - **Kritik Konular:** C# ve PowerShell kullanarak özel payload (zararlı yazılım) geliştirmek ve bellek içi (in-memory) çalıştırma teknikleri (API Hooking vb.) esastır.
+  - **Eğitim Materyali:** PEN-300 kurs dokümanları üzerinde çalışılmalıdır.
+  - **Pratik Ekosistemi:** Kendi ortamınızda bir Active Directory labı kurup, C# / PowerShell üzerinden in-memory zararlı kod enjeksiyonları (API Hooking vd.) test edilmelidir.
 
 ### 4. CISSP (Certified Information Systems Security Professional)
-Yönetim ve bilgi güvenliği liderliği alanında altın standart belgedir.
-* **Nedir:** Siber güvenliğin teknik detaylarından ziyade büyük resmini, mimari tasarımını ve risk yönetimini masaya yatırır.
-* **Kime Hitap Eder:** CISO adayları, güvenlik liderleri ve kıdemli danışmanlar.
-* **Sınav Formatı:** 4 saat, adaptif (CAT) sistemde 125-175 arası senaryo sorusu.
+Bilgi güvenliği yöneticiliği ve mimarisi alanında altın standart sertifikadır.
+* **Nedir:** Siber güvenliğin teknik işleyişi kadar mimari denetimini, güvenli yazılım geliştirme döngüsünü ve risk yönetimini test eder.
+* **Kime Hitap Eder:** CISO adayları, kıdemli danışmanlar.
+* **Sınav Formatı:** 4 saatlik adaptif uzlaşma (CAT) sisteminde maksimum 175 soru.
 * **Kapsamlı Hazırlık Yöntemi:**
-  - **Eğitim Materyali:** *Sybex CISSP Official Study Guide* kitabı ana referanstır.
-  - **Pratik Ekosistemi:** Boson Test Motoru aracılığıyla senaryo odaklı analiz yapılmalıdır. Soruların ezberlenmesi değil "Yönetici Perspektifiyle" analiz edilmesi öğretilmelidir.
+  - **Eğitim Materyali:** Sybex CISSP Official Study Guide tam anlamıyla ezberlenmeli ve süreç odaklı ("Yönetici Zihniyeti") analiz becerisi geliştirilmelidir.
 
-### 5. BSCP (Burp Suite Certified Practitioner)
-Web uygulama güvenliği ve açıkları konusunda %100 uygulamalı bir laboratuvar sınavıdır.
-* **Nedir:** SQL Enjeksiyonu, XSS, CSRF, SSRF gibi standart oWASP zafiyetlerini ileri seviyede tespit etme yeteneğini test eder.
-* **Kime Hitap Eder:** Web Uygulama Güvenlik Uzmanları ve Bug Bounty avcıları.
-* **Sınav Formatı:** 4 saatlik zorlu uygulamalı sınav. 2 farklı web uygulamasını sadece Burp Suite kullanarak "Root" aşamasına getirmelisiniz.
+### 5. CISM (Certified Information Security Manager)
+ISACA tarafından verilen ve tamamen kurumsal güvenlik yönetimine odaklanan C-Level sertifikadır.
+* **Nedir:** Olay yönetimi (incident management) ve güvenlik programının iş haritasıyla uyumlanmasını ölçer. CISSP'in daha yönetim odaklı varyasyonudur.
+* **Kime Hitap Eder:** Güvenlik yöneticileri, uyumluluk (compliance) uzmanları.
+* **Sınav Formatı:** 4 saat, 150 çoktan seçmeli senaryo sorusu.
 * **Kapsamlı Hazırlık Yöntemi:**
-  - **Eğitim Materyali & Pratik Ekosistemi:** PortSwigger Web Security Academy ana eğitim rotasıdır. "Apprentice" ve "Practitioner" seviyesindeki tüm laboratuvarlar Burp Suite Professional kurularak bitirilmelidir.
-  - **Kritik Konular:** Out-of-band (OAST) saldırıları ve karmaşık kimlik doğrulama bypass yöntemleri saniyeler içinde çalıştırılamıyorsa başarı güçtür.
+  - **Pratik Ekosistemi:** Resmi ISACA "QAE (Questions, Answers & Explanations)" veri tabanı üzerinden şirket kültürüne uyumlu (Governance odaklı) kararlar alabilme mantığı oturtulmalıdır.
+
+### 6. BSCP (Burp Suite Certified Practitioner)
+Web uygulama güvenliğine odaklı %100 uygulamalı bir laboratuvar sınavıdır.
+* **Nedir:** OWASP zafiyetlerini (SQLi, XSS, SSRF vb.) gelişmiş senaryolarda tespit yeteneğini ölçer.
+* **Kime Hitap Eder:** Web Uygulama Güvenlik Uzmanları ve Bug Bounty avcıları.
+* **Sınav Formatı:** 4 saatlik uygulamalı sınav; iki web uygulamasının yetkilerini kırmak hedeflenir.
+* **Kapsamlı Hazırlık Yöntemi:**
+  - **Pratik Ekosistemi:** PortSwigger Web Security Academy ana çalışma dizinidir. "Practitioner" seviyesindeki araçlar ve OAST (Out-of-band) bypass taktikleri çalışılmalıdır.
 
 ---
 
@@ -79,23 +83,36 @@ Web uygulama güvenliği ve açıkları konusunda %100 uygulamalı bir laboratuv
 *👉 Detaylı Harita: [embedded_and_ai/](embedded_and_ai/README.md)*
 
 ### 1. NVIDIA DLI Certifications (Deep Learning Institute)
-Görüntü işleme ve yapay zeka alanında donanım odaklı geliştirme yapanlar içindir.
-* **Nedir:** Bilgisayarlı görü modellerini NVIDIA GPU'ları veya Edge cihazları üzerinde optimize etme yeteneğini ölçer.
-* **Kime Hitap Eder:** Yapay zeka mühendisleri, robotik geliştiricileri.
-* **Sınav Formatı:** Proje tabanlı uygulamalı değerlendirmeler.
+Derin öğrenme modellerinin donanım düzeyinde çalıştırılması standartlarını tanımlar.
+* **Nedir:** Bilgisayarlı görü (CV) modellerini Edge cihazlarda optimize etme yeteneğini ölçer.
+* **Kime Hitap Eder:** Yapay zeka mühendisleri, robotik sistem mimarları.
+* **Sınav Formatı:** Proje tabanlı model dağıtım senaryoları.
 * **Kapsamlı Hazırlık Yöntemi:**
-  - **Eğitim Materyali:** Resmi NVIDIA DLI çevrimiçi laboratuvarları izlenmelidir.
-  - **Pratik Ekosistemi:** Fiziksel bir NVIDIA Jetson cihazı (veya GPU destekli Cloud sunucu) kullanılarak "Deployment" testleri yapılmalıdır.
-  - **Kritik Konular:** Modelleri TensorRT kullanarak FP16/INT8 standartlarına küçültmek ve GStreamer üzerinde ardışık işlem yolları (pipeline) kurmak ana odaktır.
+  - **Pratik Ekosistemi:** Modelleri "TensorRT" ile kuantize etmek (FP16/INT8) ve NVIDIA Jetson/Cloud GPU'ları üzerinde çıkarım (Inference) yapmak ana hazırlık evresidir.
 
 ### 2. Arm Accredited Engineer (AAE)
-Donanım mimarisi ve düşük seviyeli (low-level) sistem programlama yetkinliği sertifikaları.
-* **Nedir:** Cortex mimarilerini anlama, bellek yönetimi (MMU) ve kesme (interrupt) işleme bilgisini kanıtlar.
-* **Kime Hitap Eder:** RTOS geliştiricileri, aygıt sürücüsü geliştiriciler.
-* **Sınav Formatı:** Donanım senaryolarını test eden çoktan seçmeli standart sınav.
+Düşük seviyeli (low-level) sistem ve işlemci programlama sertifikasıdır.
+* **Nedir:** Cortex mimarilerinde bellek yönetimi (MMU), kesme işlemleri (interrupt) fonksiyonlarını test eder.
+* **Kime Hitap Eder:** RTOS geliştiricileri, SoC yazılımcıları.
+* **Sınav Formatı:** Çoktan seçmeli sistem analizi ve donanım senaryosu soruları.
 * **Kapsamlı Hazırlık Yöntemi:**
-  - **Eğitim Materyali:** Arm *Architecture Reference Manual* bültenleri temel akademik kaynaktır.
-  - **Pratik Ekosistemi:** Kiel IDE/GCC Toolchain kurularak, STM32 veya NXP geliştirme kartları üzerinde işletim sistemi olmadan (Bare-metal) C veya Assembly pratikleri yapılmalıdır.
+  - **Pratik Ekosistemi:** Kiel IDE/GCC ile mikrodenetleyiciler üzerinde (Örn: STM32) işletim sistemsiz ortamda "Bare-metal" programlama pratikleri yapılmalıdır.
+
+### 3. AWS Certified Machine Learning – Specialty
+Algoritmaların bulut bilişim ekosistemleriyle ve donanımlarla buluşma noktasıdır.
+* **Nedir:** Veri mühendisliği (Data Engineering), keşifsel analiz (EDA), modelleme ve Amazon SageMaker entegrasyonlarını ölçer.
+* **Kime Hitap Eder:** MLOps mimarları, kurumsal AI uzmanları.
+* **Sınav Formatı:** Makine öğrenimi algoritmaları optimizasyonlarına dayalı 180 dakikalık senaryo sınavı.
+* **Kapsamlı Hazırlık Yöntemi:**
+  - **Pratik Ekosistemi:** Sagemaker üzerinde model dağıtımı ve VPC yapısıyla güvenli API "Endpoint" açma gibi pratik AWS senaryoları tasarlanmalıdır.
+
+### 4. CompTIA Linux+ / LPIC-1
+Embedded (gömülü) dağıtımların ve işletim sistemlerinin can damarı Linux altyapısıdır.
+* **Nedir:** Linux sistem mimarisi, ağ ayarları, güvenlik (SELinux) ve shell scripting yeteneğini kanıtlar.
+* **Kime Hitap Eder:** Gömülü Linux (Yocto/Buildroot) geliştirenler, Sistem Yöneticileri.
+* **Sınav Formatı:** Komut sonuçlarını veya parametrelerini ölçen uygulamalı yapılandırma soruları.
+* **Kapsamlı Hazırlık Yöntemi:**
+  - **Pratik Ekosistemi:** Fiziksel bir Debian ya da Red Hat cihazda (ya da Raspberry Pi üzerinde) bash betikleri hazırlayıp, LVM ve Systemd dosya yapılandırmalarını dökümantasyon kurcalayarak çözümlemek şarttır.
 
 ---
 
@@ -104,30 +121,36 @@ Donanım mimarisi ve düşük seviyeli (low-level) sistem programlama yetkinliğ
 *👉 Detaylı Harita: [data_engineering/](data_engineering/README.md)*
 
 ### 1. Google Cloud Professional Data Engineer
-Veri mühendisliği için bulut üzerinde tasarım ve operasyon yetkinliğini belgeler.
-* **Nedir:** BigQuery, Dataflow, Dataproc ve Pub/Sub bileşenlerinde entegrasyon kurma yetisini sınar.
-* **Kime Hitap Eder:** Veri mühendisleri ve veri mimarları.
-* **Sınav Formatı:** 2 saatlik vaka analizleri ve mimari senaryoları.
+Veri mimarilerini Google Cloud araç seti etrafında kurgulayan ve bu mimarileri tasarlayan uzmanlar içindir.
+* **Nedir:** Dataproc, Dataflow ve BigQuery ile esnek pipeline kurgularını sınar.
+* **Kime Hitap Eder:** Veri mühendisleri ve mimarları.
+* **Sınav Formatı:** 2 saatlik vaka analizleri ve senaryo mimarisi.
 * **Kapsamlı Hazırlık Yöntemi:**
-  - **Eğitim Materyali:** Google Cloud Skills Boost "Data Engineer Learning Path".
-  - **Pratik Ekosistemi:** Qwiklabs üzerinde sunulan pratik laboratuvarların tamamlanması ve BigQuery üzerinde şema dağılımlarının test edilmesi.
+  - **Pratik Ekosistemi:** Qwiklabs görevleri ve BigQuery üzerinde şema dağılımlarının (Partitioning ve Clustering) test edilmesi.
 
 ### 2. Databricks Certified Data Engineer Professional
-Apache Spark ekosistemi üzerinde uzmanlık sertifikası.
-* **Nedir:** Databricks üzerinde ETL pipeline'ları kurma, Delta Lake optimizasyonu yetkinliğini test eder.
-* **Kime Hitap Eder:** İleri seviye veri mühendisleri.
-* **Sınav Formatı:** 120 dakika süren, performans veya troubleshooting temalı test sınavı.
+Apache Spark ekosistemi spesifikasyonunda büyük veri uzmanlık sertifikasıdır.
+* **Nedir:** Databricks üzerinde ETL ardışık düzenleri (pipelines) tasarlama, Delta Lake konfigürasyonunu test eder.
+* **Kime Hitap Eder:** İleri seviye big data mühendisleri.
+* **Sınav Formatı:** 120 dakika, performans ve "troubleshooting" temalı 60 analiz sorusu.
 * **Kapsamlı Hazırlık Yöntemi:**
-  - **Eğitim Materyali:** Databricks Academy kursları eşzamanlı izlenmelidir.
-  - **Kritik Konular:** Spark UI analizi ve "Execution Plan" optimizasyonu yapabilme kabiliyeti geliştirmek temel gereksinimdir.
+  - **Pratik Ekosistemi:** Spark Web UI arayüzünden "Execution Plan" optimizasyonunu analiz etmek zorunlu bir beceridir.
 
 ### 3. Microsoft Certified: Azure Data Engineer Associate (DP-203)
-Microsoft kurumsal bulut ağlarında veri hatları (pipeline) tasarlayan mimarlar için birincil sertifikadır.
-* **Nedir:** Azure Synapse Analytics, Azure Data Lake Storage Gen2, Azure Databricks ve Azure Data Factory üzerinden hibrit veri dönüşümleri yapılabilmesini test eder.
-* **Kime Hitap Eder:** Data Mühendisleri, .NET/Azure ekosistemine entegre çalışan analistler.
-* **Sınav Formatı:** Performans senaryoları içeren (laboratuvar simülatörü içerebilir) 120 dakikalık teknik sınav.
+Microsoft ekosisteminde entegre veri dönüştürme sistemleri tasarlamayı doğrular.
+* **Nedir:** Azure Data Factory ve Azure Synapse ile çok kaynaklı veri akışlarının kurgulanması.
+* **Kime Hitap Eder:** .NET ve Azure kurumsal ekosistemi Data Mühendisleri.
+* **Sınav Formatı:** 120 dakikalık interaktif vaka analizi soruları.
 * **Kapsamlı Hazırlık Yöntemi:**
-  - **Pratik Ekosistemi:** Azure Portal üzerinden bir ücretsiz hesap açılarak Azure Data Factory arayüzünde çok yapılı (JSON, CSV, Parquet) verilerin blob ortamları arasında dönüşümleri pratik edilmelidir. Data Factory içindeki kopyalama etkinlikleri ile Data Flow senaryoları simüle edilmelidir.
+  - **Pratik Ekosistemi:** Azure Portal üzerinden Data Factory arayüzünde "Data Flow" (T Dönüşüm aşaması) işlemleri ve Synapse Analytics pratikleri gerçekleştirilmelidir.
+
+### 4. Snowflake SnowPro Core Certification
+Modern bulut tabanlı veri ambarı (Data Warehouse) olan Snowflake konseptinin operasyonel sertifikasıdır.
+* **Nedir:** Snowflake veri kopyalama (cloning), "Time Travel", paylaşımlı erişim ve maliyet optimizasyonu standartlarını değerlendirir.
+* **Kime Hitap Eder:** Veri Analistleri, Bulut Veri Mimarları.
+* **Sınav Formatı:** 115 dakika, 100 soru.
+* **Kapsamlı Hazırlık Yöntemi:**
+  - **Pratik Ekosistemi:** Snowflake'in kendi dokümantasyonu eşliğinde ücretsiz bir instance açarak sanal "Warehouse" küme boyutlarının query (sorgu) performansı üzerindeki farklılıkları saniyeler cinsinden canlı test edilmelidir.
 
 ---
 
@@ -135,31 +158,45 @@ Microsoft kurumsal bulut ağlarında veri hatları (pipeline) tasarlayan mimarla
 
 *👉 Detaylı Harita: [network_telecom/](network_telecom/README.md)*
 
-### 1. Cisco CCNA (Cisco Certified Network Associate)
-Ağ mühendisliğinin global temel standartlarından biri.
-* **Nedir:** Yönlendirme, anahtarlama, IP adresleme ve temel otomasyonu kapsar.
-* **Kime Hitap Eder:** Network mühendisleri, sistem yöneticileri.
-* **Sınav Formatı:** 120 dakikalık CLI laboratuvar simülasyonları ve çoktan seçmeli sorular.
+### 1. CompTIA Network+
+Marka bağımsız, giriş-orta seviye ağ topoloji ve protokollerini temellendiren endüstri sertifikası.
+* **Nedir:** OSI Modeli katmanları, TCP/IP yönlendirmeleri, Wi-Fi standartları ve subnetting temellerini oluşturur.
+* **Kime Hitap Eder:** Yeni başlayan network teknisyenleri, HelpDesk uzmanları.
+* **Sınav Formatı:** İnteraktif ve senaryo temelli (PBQ) 90 çoktan seçmeli soru.
 * **Kapsamlı Hazırlık Yöntemi:**
-  - **Eğitim Materyali:** Jeremy's IT Lab kursları veya CCNA Official Cert Guide.
-  - **Pratik Ekosistemi:** Cisco Packet Tracer ile VLAN, OSPF topolojileri kurulmalı; IPv4 subnet hesaplaması otomatik hale getirilmelidir.
+  - **Pratik Ekosistemi:** Kavramların temel network kitaplarından okunması ve Packet Tracer üzerinde küçük topolojiler kurgulanması kafadaki IP hiyerarşisini netleştirecektir.
 
-### 2. Cisco CCNP Enterprise (Cisco Certified Network Professional)
-Altyapı mimarisi ve ileri seviye ağ konfigürasyonu sertifikası.
-* **Nedir:** BGP, OSPF, SD-WAN, kablosuz ağlar ve hata ayıklama (troubleshooting) senaryolarını içerir.
-* **Kime Hitap Eder:** Kıdemli network uzmanları ve ağ mimarları.
-* **Sınav Formatı:** Core (ENCOR) ve Concentration olmak üzere çift aşamalı sınav.
+### 2. Cisco CCNA (Cisco Certified Network Associate)
+Endüstri lideri Cisco ortamının başlangıç anahtarıdır.
+* **Nedir:** Yönlendirme ve anahtarlama standartlarını, OSPF, VLAN gibi protokollerle Cisco CLI üstünde yürütmeyi test eder.
+* **Kime Hitap Eder:** Orta seviye Network Analistleri.
+* **Sınav Formatı:** 120 dakikalık CLI simülasyonları ve çoktan seçmeli sorular.
 * **Kapsamlı Hazırlık Yöntemi:**
-  - **Pratik Ekosistemi:** EVE-NG veya GNS3 laboratuvarında Cisco IOS imajları yüklenerek büyük donanım topolojileri kurgulanmalıdır.
+  - **Pratik Ekosistemi:** Cisco Packet Tracer ile laboratuvar ortamları simüle edilmeli ve subnetting işlemleri için refleks kazandırılmalıdır.
 
-### 3. PCNSA (Palo Alto Networks Certified Network Security Administrator)
-Yeni nesil güvenlik duvarları (Next-Generation Firewalls) ve güvenlik ilkeleri (Policy) alanında aranan bir akreditasyondur.
-* **Nedir:** Kullanıcı bazlı ve uygulama bazlı profil kuralları (App-ID, User-ID) yönetimi yetilerini sınar.
-* **Kime Hitap Eder:** Ağ Güvenlik Yöneticileri, SOC seviyesi ağ analistleri.
-* **Sınav Formatı:** 80 dakikalık tasarım ve bileşen kurgulama sınavı.
+### 3. Cisco CCNP Enterprise (Cisco Certified Network Professional)
+Altyapı tasarımı ve enterprise düzeyde hata teşhisi ve giderme ustalık sertifikasıdır.
+* **Nedir:** BGP komşulukları, SD-WAN entegrasyonu, kablosuz altyapı dağıtımları gibi konuları kapsar.
+* **Kime Hitap Eder:** Kıdemli network yöneticileri.
+* **Sınav Formatı:** İki aşamalı (Core + Concentration sınavı) ağırlıklı laboratuvar sınavları bütünü.
 * **Kapsamlı Hazırlık Yöntemi:**
-  - **Eğitim Materyali:** Palo Alto Beacon platformu üzerindeki EDU-210 kursları ana dökümandır.
-  - **Pratik Ekosistemi:** Palo Alto Networks VM-Series NGFW imajlarını bir EVG-NG platformuna yükleyerek gerçek bir web filtreleme ve loglama (Traffic Logs) işlemi simüle edilmelidir.
+  - **Pratik Ekosistemi:** EVE-NG ortamında Cisco IOS (Örn: IOL imajları) yüklenerek büyük donanım topolojileri kurgulanmalıdır.
+
+### 4. PCNSA (Palo Alto Networks Certified Network Security Administrator)
+Yeni nesil güvenlik duvarları (NGFW) ve sıfır güven (Zero Trust) politikalarının konfigürasyon belgesi.
+* **Nedir:** Kullanıcı bazlı ve uygulama bazlı profil kuralları yönetiminin Palo Alto platformunda uygulanması.
+* **Kime Hitap Eder:** Güvenlik Duvarı Mühendisleri (Firewall Engineers).
+* **Sınav Formatı:** 80 dakikalık altyapı kurgusu sınavı.
+* **Kapsamlı Hazırlık Yöntemi:**
+  - **Pratik Ekosistemi:** EVE-NG ortamına kurulan VM-Series (Palo Alto Firewall) üzerinden trafik loglamaları, SSL dekripsiyon ve Policy (Kural) yapılandırmaları pratiğe dökülmelidir.
+
+### 5. F5 Certified BIG-IP Administrator (F5-CA)
+Devasa web servislerinin Load Balancer (Yük Dengeleme) ve ADC (Application Delivery Controller) yönetimleri tasdikidir.
+* **Nedir:** Gelen trafiğin sunuculara (node/pool) algoritmalara göre dağıtılması ve temel L4/L7 korumasını ölçer.
+* **Kime Hitap Eder:** Veri Merkezi ve Telekomünikasyon Yöneticileri.
+* **Sınav Formatı:** TMOS (Traffic Management OS) GUI ve CLI bazlı mimari test.
+* **Kapsamlı Hazırlık Yöntemi:**
+  - **Pratik Ekosistemi:** Sanal ağınızda "F5 BIG-IP Virtual Edition" çalıştırarak iki web sunucusu (Örn: Apache) arasında 'Round Robin' (trafik dengeleme) algoritmasını denemek temel prensipleri çözmenizi sağlar.
 
 ---
 
@@ -168,13 +205,28 @@ Yeni nesil güvenlik duvarları (Next-Generation Firewalls) ve güvenlik ilkeler
 *👉 Detaylı Harita: [software_architecture/](software_architecture/README.md)*
 
 ### 1. Oracle Certified Professional: Java SE 17 / 21 Developer
-Java dilinin mimari ve nesne yönelimli standartlarını ölçen sertifika.
-* **Nedir:** Java'nın bellek yönetimi, concurrency/multithreading özelliklerini yetkin düzeyde ölçer.
-* **Kime Hitap Eder:** Backend geliştiricileri, yazılım mühendisleri.
-* **Sınav Formatı:** 90 dakikalık karmaşık kod analizi soruları.
+Java dilinin standart kütüphaneleri, çalışma mantığı (JVM) üzerinde akademik düzey testidir.
+* **Nedir:** Concurrency, Garbage Collection gibi performans metriklerini kod seviyesinde ele alır.
+* **Kime Hitap Eder:** Backend yazılım mühendisleri.
+* **Sınav Formatı:** 90 dakikalık kod parçası okuma (IDE imkanı olmaksızın derleyici hatası arama) soruları.
 * **Kapsamlı Hazırlık Yöntemi:**
-  - **Pratik Ekosistemi:** IDE hata ayıklama ve otomatik tamamlamaları kapatılmalı. Kod metin editöründe izlenip derlenmelidir.
-  - **Kritik Konular:** Enthuware deneme sınavlarındaki JVM analizleri dikkatle okunmalıdır.
+  - **Pratik Ekosistemi:** Enthuware veri tabanındaki uç (trick) sorular incelenip hata ayıklama kod metinlerinde satır satır hesaplanmalıdır.
+
+### 2. AWS Certified Developer – Associate
+Uygulama geliştiricileri için doğrudan bulut servisleriyle entegrasyonu (SDK, Lambda) standartlaştıran sertifikadır.
+* **Nedir:** Düz bir sunucu kodlamak yerine Serverless (AWS Lambda, API Gateway) ve asenkron veri erişimi (DynamoDB) servisleriyle native uygulamalar tasarlamayı test eder.
+* **Kime Hitap Eder:** Bulut tabanlı yazılım geliştiren Backend ekipleri.
+* **Sınav Formatı:** 130 dakikalık uygulama mimarisi odaklı API / Kod çoktan seçmeli testi.
+* **Kapsamlı Hazırlık Yöntemi:**
+  - **Pratik Ekosistemi:** AWS üzerinde Python Boto3 (veya JavaScript/Java AWS SDK) uçları kullanarak S3 ve DynamoDB üzerinde IAM rollerine dayalı operasyonlar yazılmalı ve AWS CLI etkin şekilde kullanılmalıdır.
+
+### 3. TOGAF 9 Certified (The Open Group Architecture Framework)
+Kurumsal (Enterprise) düzey organizasyonların "Tüm sistemlerimiz nasıl dönüşecek?" sorusunu yanıtlayan global IT Mimarlık sertifikasıdır.
+* **Nedir:** Kod yazmaktan çok, yüzlerce bileşeni olan organizasyonları hizalamaya yarayan bir "mimari döngü (Architecture Development Method - ADM)" metodolojisini sorgular.
+* **Kime Hitap Eder:** Kurumsal Mimarlar (Enterprise Architects), CTO adayları.
+* **Sınav Formatı:** Vakaları çerçeve içinde yorumlamayı gerektiren Part 1 (Foundation) ve Part 2 (Certified) karma sınavları.
+* **Kapsamlı Hazırlık Yöntemi:**
+  - **Pratik Ekosistemi:** Kod pratiklerinin yerini UML diyagramları, paydaş yönetim senaryoları ve stratejik iş planı analiz şablonları okumaları alır. The Open Group resmi dokümanları referanstır.
 
 ---
 
@@ -183,39 +235,52 @@ Java dilinin mimari ve nesne yönelimli standartlarını ölçen sertifika.
 *👉 Detaylı Harita: [cloud_devops/](cloud_devops/README.md)*
 
 ### 1. AWS Certified Solutions Architect - Professional
-AWS üzerinde karmaşık ve büyük ölçekli mimariler tasarlama yeterliliği belgesi.
-* **Nedir:** Hibrit bulut ortamları tasarlama, yüksek erişilebilirlik sağlama mimarisi testidir.
+Bulut mimarilerinde çoklu bileşenlerin (hibrit cloud, security, maliyet) uçucu durumlara göre entegrasyon belgesidir.
+* **Nedir:** İş gereksinimine özgü esnek, yüksek erişilebilir dağıtım (deployment) stratejileri testidir.
 * **Kime Hitap Eder:** Kıdemli bulut mimarları.
-* **Sınav Formatı:** 180 dakikalık çok yoğun senaryo analizleri.
+* **Sınav Formatı:** Son derece zorlayıcı, uzun paragraflarla ve senaryolarla dolu 180 dakikalık sınav.
 * **Kapsamlı Hazırlık Yöntemi:**
-  - **Eğitim Materyali:** Adrian Cantrill veya Stephane Maarek platformları ve resmi çalışma rehberleri incelenmelidir.
-  - **Pratik Ekosistemi:** TutorialsDojo üzerinden pratik senaryolar süre bazlı çözülerek analiz edilmelidir.
+  - **Pratik Ekosistemi:** Adrian Cantrill eğitimleri ile TutorialsDojo sınav simülatörü ikilisi üzerinden çalışma temposunu tutturmak önceliklidir.
 
 ### 2. CKA (Certified Kubernetes Administrator)
-Sistem yönetimi ve mikroservis dağıtımı konusunda yaygın endüstri standardı sertifikadır.
-* **Nedir:** Konteyner orkestrasyonunda kümelenme kurulumu, bakım ve sorun giderme standartlarını belgeler.
-* **Kime Hitap Eder:** DevOps mühendisleri, SRE'ler.
-* **Sınav Formatı:** 2 saatlik, **%100 uygulamalı** terminal tabanlı sınavdır.
+Konteyner orkestrasyon mekanizması Kubernetes üzerinde arıza tespit (troubleshooting) ve kümeye (cluster) bakım sertifikasıdır.
+* **Nedir:** Bozulmuş bir sistemin çalışır konuma getirilmesi gibi tamamen pratik yeteneği sınar.
+* **Kime Hitap Eder:** Kubernetes yöneticileri, SRE uzmanları.
+* **Sınav Formatı:** Terminal üzerinden uygulanan iki saatlik pratik sınav.
 * **Kapsamlı Hazırlık Yöntemi:**
-  - **Pratik Ekosistemi:** KodeKloud üzerindeki laboratuvarlar eşliğinde çalışılıp, Killer.sh simülatöründe geçiş puanı (passing score) yakalanmalıdır. 
-  - **Kritik Konular:** Terminal üzerinde `kubectl dry-run` kullanımı tam anlamıyla ezberden, hızlıca gerçekleştirilebilir olmalıdır.
+  - **Pratik Ekosistemi:** Killer.sh simülatör puanı garantisine kadar terminaldeki `kubectl` objelerinin hızlıca tetiklenmesi çalışılmalıdır.
 
-### 3. Red Hat Certified System Administrator (RHCSA)
-DevOps temellerini atan, gerçek dünyadaki sunucu komut satırı yeteneklerinin teyit edildiği sertifikadır.
-* **Nedir:** Red Hat Enterprise Linux (RHEL) üzerinde ağ, diskin LVM konfigürasyonları, kullanıcı izinleri ve log analiz gibi operasyonları değerlendirir.
-* **Kime Hitap Eder:** Sistem Yöneticileri, Bulut ve DevOps tarafına ilerlemek isteyen herkes.
-* **Sınav Formatı:** İnternet erişimsiz, tamamıyla uygulamalı süren ~3 saatlik terminal sınavıdır. (Birden fazla bozuk veya boş makine terminali verirler)
+### 3. CKAD (Certified Kubernetes Application Developer)
+Ortamı yöneten (Admin) yerine, ortam içine pod ve servis dağıtan (Deploy) geliştirici spesifikasyonudur.
+* **Nedir:** Uygulama sağlık kontrollerini (Liveness/Readiness Probes), Secrets / ConfigMaps gibi değişkenlerin Pod'lara empoze edilmesini ölçer.
+* **Kime Hitap Eder:** DevOps Ekipleri, Backend Yazılımcılar.
+* **Sınav Formatı:** 2 Saatlik komut satırı (terminal) pratiği. Terminalden kopyalama/yapıştırma ve YAML düzeltmeleri (Indentler vs.) ölçülür.
 * **Kapsamlı Hazırlık Yöntemi:**
-  - **Eğitim Materyali:** Sander van Vugt RHCSA kitapları ve eğitim videoları birincil kaynaktır.
-  - **Pratik Ekosistemi:** Sanal makine üzerinde bir veya birden fazla CentOS stream ya da RHEL çalıştırıp; komutlara (`nmcli`, `fdisk` / `parted`, `LVM`) hiç dokümantasyon bakmadan anında cevap erecek noktada alıştırma yapılmalıdır.
+  - **Pratik Ekosistemi:** KodeKloud eğitim ortamları üzerinden Kubernetes dokümantasyonlarından arama yaparak (`yaml` snippetleri kopyalayarak) süreyi optimize etmek ana hedeftir.
 
-### 4. AWS Certified DevOps Engineer - Professional
-DevOps yaşam döngüsü operasyonlarının AWS spesifik CI/CD araçları ile uygulanmasını hedefler.
-* **Nedir:** AWS CloudFormation, CodePipeline, CodeBuild vasıtasıyla "Sıfır Kesintili Yükseltme" (Blue/Green, Canary) taktiklerini ölçer.
-* **Kime Hitap Eder:** Site Reliability Engineer (SRE) rolleri, Kıdemli DevOps mimarları.
-* **Sınav Formatı:** Kurumsal bulut kurgularında dağıtım problemlerini çözmeyi de içeren 180 dakikalık kavramsal sınav.
+### 4. Red Hat Certified System Administrator (RHCSA)
+Sektörün tartışmasız en geçerli System Admin sertifikasıdır. DevOps felsefesine atılan güçlü bir pratik Linux temeli.
+* **Nedir:** Gerçek makineler (RHEL ortamı) üzerinde depolama (LVM), kullanıcı izni (ACL), ağ yönetimi ve dosya sistemi konfigürasyonu yapabilmeyi ölçer.
+* **Kime Hitap Eder:** Sistem yöneticileri ve DevOps ekipleri.
+* **Sınav Formatı:** Uygulamalı (İnternetsiz) terminal sınavı. "Sistem parolası kilitlenmiş bir makineye eriş, izinleri düzenle" yaklaşımı barındırır.
 * **Kapsamlı Hazırlık Yöntemi:**
-  - **Pratik Ekosistemi:** AWS'de CodePipeline kurarak kişisel repo entegrasyonuyla CI/CD çalıştırılmalı ve otomatik ölçeklendirme gruplarının davranışları (Auto Scaling Lifecycle Hooks) mutlaka canlı test edilerek incelenmelidir.
+  - **Pratik Ekosistemi:** Sanal bir makine üzerinde Sander van Vugt RHCSA doküman pratikleri (`nmcli`, `fdisk`, `tar`, `systemctl`) hiçbir kaynağa bakmadan hızla gerçekleştirilmelidir.
+
+### 5. AWS Certified DevOps Engineer - Professional
+DevOps sürekli entegrasyon ve otomasyon araç setlerinin (CI/CD) tüm AWS kaynaklarıyla uyumlu yönetilmesini ölçer.
+* **Nedir:** CodePipeline entegrasyonu, yüksek trafik ölçekleme grupları (Auto-Scaling Lifecycle) ve CloudFormation betik formatlarını denetler.
+* **Kime Hitap Eder:** Kıdemli SRE mimarları, Cloud otomasyon uzmanları.
+* **Sınav Formatı:** Mimarının otomatikleşmesine dayalı vaka analizlerin sorulduğu üst düzey bir teori/pratik testidir.
+* **Kapsamlı Hazırlık Yöntemi:**
+  - **Pratik Ekosistemi:** AWS üzerinde manuel kurulum bırakılarak; örnek bir React uygulamasını S3 ve CloudFront'a GitHub bağlantılı (CodeBuild/CodePipeline devrede) bir otomasyon scripti ile yayınlamak sınav felsefesini özetler.
+
+### 6. Microsoft Certified: DevOps Engineer Expert (AZ-400)
+Azure ekosistemi ve GitHub konseptleriyle bütünleşik üst düzey DevOps standardı.
+* **Nedir:** Azure DevOps, Boards, Repos, Pipelines ve ArgoCD/GitOps standartlarının yönetimine ve "Sürekli Geri Bildirim" ölçümlerine (telemetry) odaklanır.
+* **Kime Hitap Eder:** Azure odaklı ekiplerde kıdemli DevOps mimarları.
+* **Sınav Formatı:** Azure portalı simulasyonunu da kapsayabilen karmaşık CI/CD analizleri.
+* **Kapsamlı Hazırlık Yöntemi:**
+  - **Pratik Ekosistemi:** Azure Pipelines kullanılarak (yaml formatında) ARM şablonları dağıtan Release takvimleri programlamak gereklidir.
 
 ---
 
