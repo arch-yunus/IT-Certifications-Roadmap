@@ -1,29 +1,29 @@
-# 🏗️ Yazılım Mimarisi ve Geliştirme Masterclass Roadmap
+# 🏗️ Yazılım Mimarisi ve Geliştirme Roadmap
 
-Yazılım sadece "çalışan kod" demek değildir. Elite bir yazılımcı (Meta-Engineer), yazdığı kodun bellek tüketimini, concurrency (eşzamanlılık) problemlerini ve compiler/interpreter mimarisini kağıt üzerinde görebilen kişidir.
+Sistem tasarımı prensipleri, dağıtık sistemler teorisi ve dillerin düşük seviyeli işleyiş mekanizmalarına odaklanan rotadır.
 
 ## 📌 Sertifikasyon Haritası
 
 ### 1. Oracle Certified Professional: Java SE Developer
-Java'nın teorik sınırlarına sarsılmaz bir hakimiyet belgesi.
-* **Detay:** IDE kopya vermeden "Eğer bu kod derlenirse heap memory'de ne olur?" seviyesinde derinlik analizleriyle dolu bir sınavdır.
+Java'nın sentaks, iç çalışma mantığı ve standart kütüphanelerine hakimiyet gerektiren sertifikadır.
+* **Detay:** Bellek yönetimi (Garbage Collection mekanizmaları), concurrency (eşzamanlılık) gibi konularda yetkinliğinizi detaylı seviyede sınar.
 
 ### 2. Microsoft Certified: Azure Solutions Architect Expert
-Yazılımın .NET ekosistemi ve Microsoft Azure bulutu üzerinde mimari düzeyde nasıl barınacağını belgeler.
-* **Detay:** Uygulama tasarımı, veri platformu entegrasyonu ve Event-Driven Microservices konuları ağırdır.
+Mimarların, Microsoft Azure ekosistemleri üzerinde uygulamaları entegre ve sürdürülebilir biçimde barındırma senaryoları üzerine odaklanır.
+* **Detay:** Gelişmiş entegrasyonlar, Microservices yaklaşımları ve performans standartları gereksinimlerini değerlendirir.
 
 ---
 
-## 🏛️ "Meta-Engineer" Sistem Tasarımı (System Design)
+## 🏛️ Sistem Tasarımı (System Design)
 
-Sertifikalar bir noktada biter; gerçek sınav sistem tasarımı mülakatlarında ve Production (Canlı) ortamında arıza çıktığında başlar. 
+Kapsamlı bir yazılımın geliştirme döngüsünde uygulamaya koyulması beklenen kavramsal çerçeveler:
 
-### Öğrenilmesi Şart Olan Mimari Konseptler
-- **CAP Teoremi (Consistency, Availability, Partition Tolerance):** Dağıtık sistemlerin katı yasası. Neden veritabanınız aynı anda %100 tutarlı ve erişilebilir kalamaz?
-- **Microservices ve Event-Driven Architecture:** Uygulamayı devasa bir monolit olmaktan çıkarıp, Kafka/RabbitMQ üzerinden haberleşen bağımsız küçük askeri birliklere (servislere) dönüştürme.
-- **Caching Stratejileri:** Redis / Memcached kullanarak veritabanına binen IO işlemlerini önbellekte soğurma. 
+### Mimari Konseptler
+- **CAP Teoremi:** Dağıtık veri depolarında Consistency, Availability ve Partition Tolerance parametreleri arasındaki tercih ve taviz (trade-off) kuralları.
+- **Microservices ve Event-Driven Architecture:** Uygulamayı monolitik bir mimariden kurtararak mesaj kuyrukları (Örn: RabbitMQ, Kafka) vasıtasıyla asenkron çalışan modüler servislere ayırmak.
+- **Caching Stratejileri:** Redis, Memcached gibi In-Memory veri depoları kullanarak ana veritabanı yükünü asgariye indirmek.
 
-### 📚 Tavsiye Edilen Başucu Kitapları (Okumadan Mimari Tasarlanmaz)
-1. *Designing Data-Intensive Applications (Martin Kleppmann):* Sektörün incilidir.
-2. *Clean Architecture (Robert C. Martin)*
-3. *System Design Interview (Alex Xu)*
+### 📚 Profesyonel Gelişim Kaynakları
+- *Designing Data-Intensive Applications (Martin Kleppmann)*
+- *Clean Architecture (Robert C. Martin)*
+- *System Design Interview (Alex Xu)*

@@ -1,179 +1,167 @@
-# 🚀 IT-Certifications-Roadmap: The Elite Roadmap
+# 🚀 IT-Certifications-Roadmap
 
-Bilgi Teknolojileri (IT) sektöründe, özellikle bağımsız geliştiriciler, "Monk Mode" felsefesini benimseyenler ve kendi yolunu çizenler için yetkinliği global çapta kanıtlamanın en prestijli yolu doğru sertifikalara sahip olmaktır. 
+Bilgi Teknolojileri (IT) sektöründe yetkinliği global çapta kanıtlamanın en prestijli yollarından biri doğru sertifikalara sahip olmaktır. 
 
-Bu repo, "CV dolduran" kağıt parçalarının değil; "masaya yumruğunu vurduran", sektörel ağırlığı olan ve **hands-on (uygulamalı)** yetkinlik gerektiren elit sertifikaların yüksek yoğunluklu bir haritasıdır. Teorik ezberle geçilen sınavları geride bırakıp, pratik bilgiye değer veren mühendisler için güncellenmiştir.
+Bu repo, IT endüstrisinde pratik uygulaması olan, teknik kapasiteyi gerçekten ölçen ve sektörel ağırlığı bulunan sertifikaların tarafsız bir haritasıdır. Teorik ezberle geçilen sınavlar yerine uygulamalı (hands-on) yetkinlik gerektiren sertifikalara odaklanılmıştır.
 
 ---
 
 ## 📑 İçindekiler
-- [🛡️ İleri Seviye Siber Güvenlik (Cybersecurity)](#-i̇leri-seviye-siber-güvenlik-cybersecurity)
+- [🛡️ Siber Güvenlik (Cybersecurity)](#-siber-güvenlik-cybersecurity)
 - [⚡ Gömülü Sistemler, IoT ve Edge-AI (Embedded & AI)](#-gömülü-sistemler-iot-ve-edge-ai-embedded--ai)
 - [📊 Veri Mühendisliği ve Büyük Veri (Data Engineering)](#-veri-mühendisliği-ve-büyük-veri-data-engineering)
 - [🌐 Ağ (Network) ve Telekomünikasyon](#-ağ-network-ve-telekomünikasyon)
 - [🏗️ Yazılım Mimarisi ve Geliştirme (Software Architecture)](#-yazılım-mimarisi-ve-geliştirme-software-architecture)
 - [☁️ Bulut Bilişim ve DevOps (Cloud & DevOps)](#-bulut-bilişim-ve-devops-cloud--devops)
-- [🧘 Başarı İçin "Monk Mode" Tavsiyeleri](#-başarı-i̇çin-monk-mode-tavsiyeleri)
 - [🤝 Nasıl Katkıda Bulunurum?](#-nasıl-katkıda-bulunurum)
 
 ---
 
-## 🛡️ İleri Seviye Siber Güvenlik (Cybersecurity)
+## 🛡️ Siber Güvenlik (Cybersecurity)
 
-*👉 Detaylı Masterclass Haritası: [cybersecurity/](cybersecurity/README.md)*
+*👉 Detaylı Harita: [cybersecurity/](cybersecurity/README.md)*
 
 ### 1. OSCP (Offensive Security Certified Professional)
-Sektörün tartışmasız en saygı duyulan, uygulamalı sızma testi (penetration testing) sertifikası. 
+Sektörün en saygı duyulan, uygulamalı sızma testi (penetration testing) sertifikası. 
 
-* **Nedir:** Sana çoktan seçmeli sorular sormaz; bir laboratuvar ortamı verir ve makineleri hacklemeni ister. "Try harder" felsefesinin vücut bulmuş halidir.
-* **Kime Hitap Eder:** Beyaz şapkalı hackerlar, ileri seviye siber güvenlik uzmanları ve Red Team üyeleri.
-* **Sınav Formatı:** **24 saatlik aralıksız pratik sınav.** Belirtilen makineleri hackleyip flag'leri toplaman ve ardından 24 saat içinde profesyonel bir sızma testi raporu teslim etmen gerekir.
-* **Hazırlık Yöntemi:** OffSec'in kendi PEN-200 eğitimi şarttır. Bunun yanında HackTheBox (HTB), VulnHub ve TryHackMe'de bolca makine çözmek, "Privilege Escalation" (Hak yükseltme) konularında ustalaşmak gerekir. Konseptleri otomatize edene kadar laboratuvar ortamında ter dökülmelidir.
+* **Nedir:** Laboratuvar ortamı vererek hedef makineler üzerinde sızma testleri gerçekleştirilmesini bekler.
+* **Kime Hitap Eder:** Güvenlik uzmanları ve Red Team üyeleri.
+* **Sınav Formatı:** **24 saatlik pratik sınav.** Belirtilen makineler hacklenip 24 saat içinde raporlanmalıdır.
+* **Hazırlık Yöntemi:** PEN-200 eğitimi, HackTheBox, TryHackMe pratikleri.
 
 ### 2. OSEP (Offensive Security Experienced Penetration Tester)
-OSCP'nin ağabeyi; gelişmiş güvenlik önlemlerini (AV/EDR atlatma) delip geçmeye odaklanan kurumsal düzey bir sertifika.
+OSCP'nin ileri seviyesidir; gelişmiş güvenlik önlemlerini (AV/EDR atlatma) aşmaya odaklanır.
 
-* **Nedir:** Antivirüs atlatma, AppLocker bypass, gelişmiş Active Directory saldırıları ve lateral movement konularında üst düzey hacking becerilerini belgeler.
-* **Kime Hitap Eder:** Senior Red Team üyeleri ve gelişmiş ağ sızma testi uzmanları.
-* **Sınav Formatı:** **48 saatlik acımasız pratik sınav.** Özel donanımlı ve sıkı korunan bir Active Directory ortamını tamamen ele geçirmeniz ve raporlamanız beklenir.
-* **Hazırlık Yöntemi:** OffSec PEN-300 kursu titizlikle yalayıp yutulmalı. C# ve PowerShell kullanarak özel payload tasarlama üzerine aralıksız kod pratiği yapılmalı. Güvenlik duvarı atlatma (evasion) tekniklerini kendi sanal lab'ınızda sürekli test etmelisiniz.
+* **Nedir:** Antivirüs atlatma, gelişmiş Active Directory saldırıları konularında uzmanlığı belgeler.
+* **Kime Hitap Eder:** Kıdemli Red Team üyeleri.
+* **Sınav Formatı:** **48 saatlik pratik sınav.**
+* **Hazırlık Yöntemi:** PEN-300 kursu; C# ve PowerShell kullanarak özel payload geliştirme pratikleri.
 
 ### 3. CISSP (Certified Information Systems Security Professional)
-Siber güvenliğin "altın standardı", yönetim ve mimari seviyedeki en prestijli belgedir.
+Yönetim ve mimari seviyesindeki standart güvenlik belgelerinden biridir.
 
-* **Nedir:** Siber güvenliğin teknik detaylarından ziyade büyük resmi, mimari tasarımı ve risk yönetimini masaya yatırır. Güvenlik liderliği için bir ehliyettir.
-* **Kime Hitap Eder:** CISO (Chief Information Security Officer) adayları, güvenlik mimarları ve kıdemli danışmanlar.
-* **Sınav Formatı:** 4 saat, adaptif (CAT) sistemde 125-175 arası zorlu senaryo sorusu.
-* **Hazırlık Yöntemi:** Sadece ezber değil, "yönetici gibi düşünme (Think like a manager)" zihniyetini kavramak gerekir. Sybex CISSP Study Guide başucu kitabı yapılmalı, Kelly Handerhan'ın "Why you will pass the CISSP" videosu felsefe olarak benimsenmelidir.
+* **Nedir:** Siber güvenliğin teknik detaylarından ziyade büyük resmini, mimari tasarımını ve risk yönetimini masaya yatırır.
+* **Kime Hitap Eder:** CISO adayları, güvenlik liderleri ve kıdemli danışmanlar.
+* **Sınav Formatı:** 4 saat, adaptif (CAT) sistemde 125-175 arası senaryo sorusu.
+* **Hazırlık Yöntemi:** Sybex CISSP Study Guide kitapları ile yöneticinin perspektifinden olayları analiz etmeyi kavramak.
 
 ### 4. eJPT (eLearnSecurity Junior Penetration Tester)
-Sektöre giriş yapmak isteyenler için "hands-on" pratik yetkinliğini kanıtlayan en iyi başlangıç noktalarından biri.
+Sektöre giriş yapmak isteyenler için uygulamalı pratik yetkinliğini kanıtlayan başlangıç sertifikası.
 
-* **Nedir:** Penetrasyon testlerinin temellerini (bilgi toplama, zafiyet tarama, exploitleme) gerçekçi ağ senaryoları üzerinden öğretir ve ölçer.
-* **Kime Hitap Eder:** Sızma testlerine yeni başlayan siber güvenlik heveslileri ve Junior Pentester'lar.
-* **Sınav Formatı:** 48 saat süren uygulamalı pratik sınav; size VPN ile bağlanacağınız bir ağ verilir ve spesifik soruları cevaplamanız beklenir.
-* **Hazırlık Yöntemi:** INE platformundaki PTS (Penetration Testing Student) path'i yutulmalı. Teorik okumalar yerine doğrudan nmap, metasploit ve burp suite araçları üzerinde kas hafızası oluşturana kadar pratik yapılmalıdır.
+* **Nedir:** Penetrasyon testlerinin temellerini (bilgi toplama, zafiyet tarama, exploitleme) gerçekçi ağ senaryolarında ölçer.
+* **Kime Hitap Eder:** Siber güvenlik kariyerine yeni başlayanlar.
+* **Sınav Formatı:** 48 saat süren uygulamalı pratik sınav.
+* **Hazırlık Yöntemi:** INE üzerinden PTS (Penetration Testing Student) rotasının bitirilmesi ve ilgili laboratuvarların çözülmesi.
 
 ---
 
 ## ⚡ Gömülü Sistemler, IoT ve Edge-AI (Embedded & AI)
 
-*👉 Detaylı Masterclass Haritası: [embedded_and_ai/](embedded_and_ai/README.md)*
+*👉 Detaylı Harita: [embedded_and_ai/](embedded_and_ai/README.md)*
 
 ### 1. NVIDIA DLI Certifications (Deep Learning Institute)
-Edge-AI ve donanım hızlandırmalı yapay zeka geliştiren mühendisler için oyun değiştiricidir.
+Görüntü işleme ve yapay zeka alanında donanım odaklı geliştirme yapanlar içindir.
 
-* **Nedir:** Bilgisayarlı görü (Computer Vision), otonom makineler ve derin öğrenme modellerini NVIDIA GPU'ları veya Jetson gibi uç cihazlar üzerinde optimize etme yeteneğini gösterir.
-* **Kime Hitap Eder:** Gömülü yapay zeka mühendisleri, robotik (ROS2) geliştiricileri ve Edge-AI araştırmacıları.
-* **Sınav Formatı:** Tamamen proje tabanlı ve laboratuvar içi uygulamalı değerlendirmeler.
-* **Hazırlık Yöntemi:** NVIDIA DLI platformundaki laboratuvarlar. Özellikle Jetson Nano veya Orin cihazlarında gerçek zamanlı nesne tespiti (TensorRT + YOLO) projelerini hatasız devreye alana kadar tekrar etmek şarttır.
+* **Nedir:** Bilgisayarlı görü (Computer Vision), derin öğrenme modellerini NVIDIA GPU'ları veya Edge cihazları üzerinde optimize etme yeteneğini ölçer.
+* **Kime Hitap Eder:** Yapay zeka mühendisleri, robotik geliştiricileri.
+* **Sınav Formatı:** Proje tabanlı uygulamalı değerlendirmeler.
+* **Hazırlık Yöntemi:** NVIDIA DLI laboratuvarları ve Jetson cihazları üzerinde gerçek model dağıtımı (deployment) çalışmaları.
 
 ### 2. Arm Accredited Engineer (AAE) / Arm Architecture Certifications
-Donanıma hükmetmek isteyen düşük seviye (low-level) gömülü sistem mühendislerinin kutsal kasesi.
+Donanım mimarisi ve düşük seviyeli (low-level) sistem programlama yetkinliği sertifikaları.
 
-* **Nedir:** Cortex-A, Cortex-R ve Cortex-M mimarilerini anlama, bellek yönetimi (MMU), kesme (interrupt) işleme ve Assembly dilinde (ve C'de) yüksek performans kod yazma bilgisini mühürler.
-* **Kime Hitap Eder:** RTOS geliştiricileri, aygıt sürücüsü (driver) yazarları ve SoC mimarları.
-* **Sınav Formatı:** Kapsamlı ve donanım mimarisi senaryolarını test eden çoktan seçmeli sınav; derin teknik bilgi gerektirir.
-* **Hazırlık Yöntemi:** Yalnızca doküman okumak yetmez. Orijinal Arm Architecture Reference Manual (TTRM) kılavuzları yutulmalı; STM32 veya NXP kartlar üzerinde sıfırdan "bare-metal" C ve Assembly kodlanarak, register seviyesinde hakimiyet kurulmalıdır.
+* **Nedir:** Cortex mimarilerini anlama, bellek yönetimi (MMU), kesme (interrupt) işleme ve Assembly/C bilgisini mühürler.
+* **Kime Hitap Eder:** RTOS geliştiricileri, sürücü (driver) geliştiriciler.
+* **Sınav Formatı:** Kapsamlı ve donanım mimarisi senaryolarını test eden çoktan seçmeli sınav.
+* **Hazırlık Yöntemi:** Arm dokümantasyonları ve geliştirme kartları (STM32, vs.) üzerinde işletim sistemsiz ortamda (bare-metal) uygulamalar geliştirmek.
 
 ---
 
 ## 📊 Veri Mühendisliği ve Büyük Veri (Data Engineering)
 
-*👉 Detaylı Masterclass Haritası: [data_engineering/](data_engineering/README.md)*
+*👉 Detaylı Harita: [data_engineering/](data_engineering/README.md)*
 
 ### 1. Google Cloud Professional Data Engineer
-Veri mühendisliği dünyasının tartışmasız en geçerli ve teknik kapasitesi en yüksek sertifikalarından biri.
+Veri mühendisliği için bulut üzerinde tasarım ve operasyon yetkinliğini belgeler.
 
-* **Nedir:** BigQuery, Dataflow, Dataproc ve Pub/Sub gibi GCP araçlarını kullanarak devasa boyutlarda veriyi işleme, pipeline kurma ve makine öğrenimi modellerini operasyonelleştirme becerisini belgeler.
-* **Kime Hitap Eder:** Veri mühendisleri, Big Data mimarları ve MLOps profesyonelleri.
-* **Sınav Formatı:** 2 saatlik, yoğun mimari tasarım sorunlarına dayalı zorlu vaka analizi sınavı.
-* **Hazırlık Yöntemi:** Qwiklabs (Google Cloud Skills Boost) üzerinde ter dökene kadar pratik yapmak elzemdir. Apache Beam konseptleri ve streaming vs. batch pipeline farkı gerçek GCP ortamında uygulanmalı ve veri akış sistemleri otomatize edilmelidir.
+* **Nedir:** BigQuery, Dataflow, Dataproc ve Pub/Sub gibi platformlarda veri işleme, pipeline kurma ve model dağıtımı becerilerini ölçer.
+* **Kime Hitap Eder:** Veri mühendisleri ve veri mimarları.
+* **Sınav Formatı:** 2 saatlik vaka analizleri ve mimari senaryoları içeren sınav.
+* **Hazırlık Yöntemi:** Google Cloud Skills Boost laboratuvarları, kaynak yönetimi optimizasyonu pratikleri.
 
 ### 2. Databricks Certified Data Engineer Professional
-Büyük veri işleme ve Apache Spark ekosistemi üzerinde hakimiyet kurduğunu kanıtlamak isteyen elit mühendislerin belgesi.
+Apache Spark ekosistemi üzerinde uzmanlık sertifikası.
 
-* **Nedir:** Databricks (ve Apache Spark) üzerinde kompleks ETL pipeline'ları kurma, Delta Lake yönetimi, veri kalitesi optimizasyonu ve performans ayar (tuning) becerilerini test eder.
-* **Kime Hitap Eder:** İleri seviye veri mühendisleri ve Spark mimarları.
-* **Sınav Formatı:** 120 dakika süren, spesifik kod hatalarını (Python/SQL/Scala) ve mimari darboğazları (bottleneck) tespit etmeye yönelik 60 senaryo tabanlı soru.
-* **Hazırlık Yöntemi:** Databricks Academy eğitimleri baştan sona tamamlanmalı. Spark UI okumayı ve execution plan'leri analiz etmeyi öğrenmek şarttır. Kendi lokal veya bulut ortamınızda gigabaytlarca veriyi Delta Lake üzerine yazıp optimize ederek kod pratikleri yapılmalı.
+* **Nedir:** Databricks üzerinde ETL pipeline'ları kurma, Delta Lake optimizasyonu, veri kalitesi yönetimi ve performans tuning testi.
+* **Kime Hitap Eder:** İleri seviye veri mühendisleri.
+* **Sınav Formatı:** 120 dakika süren 60 senaryo tabanlı performans veya troubleshooting sorusu.
+* **Hazırlık Yöntemi:** Databricks Academy eğitimleri, Spark web arayüzü ölçümleri ve mimari kurgu çalışmaları.
 
 ---
 
 ## 🌐 Ağ (Network) ve Telekomünikasyon
 
-*👉 Detaylı Masterclass Haritası: [network_telecom/](network_telecom/README.md)*
+*👉 Detaylı Harita: [network_telecom/](network_telecom/README.md)*
 
 ### 1. Cisco CCNA (Cisco Certified Network Associate)
-Ağ mühendisliğinin alfabesi; her donanım, gömülü sistem veya siber güvenlik uzmanının bilmesi gereken ana temel.
+Ağ mühendisliğinin global temel standartlarından biri.
 
-* **Nedir:** Yönlendirme (routing), anahtarlama (switching), IP adresleme, temel güvenlik ve otomasyon konularının global altın standardıdır.
-* **Kime Hitap Eder:** Network mühendisleri, sistem yöneticileri ve altyapıya hakim olmak isteyen tüm IT uzmanları.
-* **Sınav Formatı:** 120 dakikalık, sürükle-bırak, simülasyon (Cisco Packet Tracer/CLI mantığı) ve çoktan seçmeli sorulardan oluşan zorlu bir sınav.
-* **Hazırlık Yöntemi:** Jeremy's IT Lab veya Neil Anderson kursları başucu kaynağı olmalı. Cisco Packet Tracer veya GNS3 kullanılarak OSPF yapılandırmaları, VLAN oluşturma ve Subnetting konularında kas hafızası oluşana dek router CLI ekranında yaşanmalıdır.
+* **Nedir:** Yönlendirme (routing), anahtarlama (switching), IP adresleme ve ağ otomasyonu temellerini kapsar.
+* **Kime Hitap Eder:** Network mühendisleri, sistem yöneticileri.
+* **Sınav Formatı:** 120 dakikalık, ağırlıklı olarak CLI tabanlı simülasyon ve senaryo temelli çoktan seçmeli sorulardan oluşur.
+* **Hazırlık Yöntemi:** Cisco Packet Tracer veya GNS3 kullanılarak topoloji yapılandırma laboratuvarları.
 
 ### 2. Cisco CCNP Enterprise (Cisco Certified Network Professional)
-Altyapı mimarisinde ustalık belgesi. İşleri "çalışır" hale getirmekten çıkıp, "kesintisiz, ölçeklenebilir ve güvenli" tasarlayanların sertifikası.
+Altyapı mimarisi ve ileri seviye ağ konfigürasyonu sertifikası.
 
-* **Nedir:** Gelişmiş routing (BGP, OSPF), mimari tasarım, SD-WAN, kablosuz ağlar ve otomasyon senaryolarında derinlemesine bilgiyi test eder (İki sınavdan oluşur: Core ve Concentration).
-* **Kime Hitap Eder:** Kıdemli network mühendisleri ve ağ mimarları.
-* **Sınav Formatı:** Her bir sınav 120 dakika sürer; ağır CLI yapılandırmaları ve troubleshooting senaryoları barındırır.
-* **Hazırlık Yöntemi:** Orijinal Cisco kitapları hatmedilmelidir (OCG - Official Cert Guide). EVE-NG veya GNS3 laboratuvarında sanal Cisco IOS imajları ile gerçek bir kurumsal topolojiyi ayağa kaldırıp bozarak "troubleshooting" pratiği yapmak şarttır.
+* **Nedir:** Gelişmiş routing, SD-WAN, kablosuz ağlar ve hata ayıklama (troubleshooting) senaryolarını içerir.
+* **Kime Hitap Eder:** Kıdemli network uzmanları ve ağ mimarları.
+* **Sınav Formatı:** Her biri 120 dakika süren, Core ve Concentration olarak iki sınav aşaması vardır. Çoklu laboratuvar simülasyonları bulunur.
+* **Hazırlık Yöntemi:** EVE-NG veya GNS3 sanal ağ laboratuvarları kurgulayarak ağ hatalarını giderme (troubleshooting) pratikleri yapmak.
 
 ---
 
 ## 🏗️ Yazılım Mimarisi ve Geliştirme (Software Architecture)
 
-*👉 Detaylı Masterclass Haritası: [software_architecture/](software_architecture/README.md)*
+*👉 Detaylı Harita: [software_architecture/](software_architecture/README.md)*
 
 ### 1. Oracle Certified Professional: Java SE 17 / 21 Developer
-Java dilinin saf, teorik ve mimari seviyede her gramına hakim olunduğunun mühürü. Kurumsal arka planda söz sahibi olmanın yolu.
+Java dilinin mimari ve nesne yönelimli standartlarını derinlemesine ölçen sertifika.
 
-* **Nedir:** Sadece kod yazmayı değil; Java'nın bellek yönetimi (Garbage Collection), concurrency/multithreading, stream API'leri ve nesne yönelimli tasarım prensiplerini hatasız uygulayabildiğinizi kanıtlar.
-* **Kime Hitap Eder:** Backend geliştiricileri, Java Enterprise mühendisleri.
-* **Sınav Formatı:** 90 dakikalık, kod okuma ve "Bu kod compile olur mu? Olursa çıktısı ne olur?" tarzı kafa karıştıran "trick" sorularla dolu zorlu bir sınav.
-* **Hazırlık Yöntemi:** Entelechia seviyesinde kuralları bilmek gerekir. Enthuware deneme sınavları alınmalı ve her bir hatalı cevap satır satır analiz edilmelidir. IDE olmadan kodun davranışını kağıt üzerinde tahmin edecek kadar dilin compiler kurallarına hakim olunmalıdır.
-
-### 2. CKA (Certified Kubernetes Administrator) (DevOps/Arch)
-Yazılımın sadece nasıl çalıştığını değil, mikroservis mimarisinde nasıl hayatta tutulduğunu gösteren en korkulan ve saygı duyulan DevOps/Mimari sertifikalarından biri.
-
-* **Nedir:** Konteyner orkestrasyonu konusunda ustalık belgesidir. Sistem çöktüğünde onu terminalden ayağa kaldırıp kaldıramayacağını ölçer.
-* **Kime Hitap Eder:** DevOps mühendisleri, SRE'ler (Site Reliability Engineers), Yazılım Mimarları.
-* **Sınav Formatı:** 2 saatlik, **%100 uygulamalı** terminal sınavı. Sana bozuk bir cluster verirler, kendi başına doküman okuyarak düzeltmeni isterler.
-* **Hazırlık Yöntemi:** KodeKloud üzerindeki CKA eğitimleri. Kubernetes'i "hard way" (Kelsey Hightower) mantığıyla kurma pratikleri. Terminalde `kubectl` alias'ları yazarak saniyeler içinde pod ve deployment ayağa kaldırma kası geliştirilmelidir.
+* **Nedir:** Java'nın bellek yönetimi (Garbage Collection), concurrency/multithreading özelliklerini uygulamalı senaryolarda doğru kodlamayı test eder.
+* **Kime Hitap Eder:** Backend geliştiricileri, yazılım mühendisleri.
+* **Sınav Formatı:** 90 dakikalık karmaşık kod analizi soruları barındırır.
+* **Hazırlık Yöntemi:** Java'nın detaylı derleme (compile) kurallarına aşinalık gerektirir.
 
 ---
 
 ## ☁️ Bulut Bilişim ve DevOps (Cloud & DevOps)
 
-*👉 Detaylı Masterclass Haritası: [cloud_devops/](cloud_devops/README.md)*
-
-*Bulut dünyasının zirvesi için CKA ve Veri Mühendisliği için GCP Data Engineer belgelerine ek olarak, mimari seviyede AWS tartışmasız güçtür.*
+*👉 Detaylı Harita: [cloud_devops/](cloud_devops/README.md)*
 
 ### 1. AWS Certified Solutions Architect - Professional
-Bulut sektöründe mimari düşüncenin zirvesi. Bir "Associate" tasarımı yaparken, bir "Professional" mevcut milyarlık sistemleri birleştirir, taşımasını yönetir ve ölçekler.
+AWS üzerinde karmaşık ve büyük ölçekli mimariler tasarlama yeterliliği belgesi.
 
-* **Nedir:** Meta-Engineering seviyesinde karmaşık, hibrit bulut ortamları tasarlama; maliyet optimizasyonu ile güvenlik arasında tavizsiz bir sistem kurma becerisi.
+* **Nedir:** Hibrit bulut ortamları tasarlama; uygun servisleri seçip güvenlik ve maliyet kıstasına göre kurgulama becerisidir.
 * **Kime Hitap Eder:** Kıdemli bulut mimarları.
-* **Sınav Formatı:** 180 dakikalık, upuzun paragraf soruları; tek bir soruda 4-5 farklı servisin (Direct Connect, Transit Gateway, Route53 vb.) entegrasyonunu ölçer.
-* **Hazırlık Yöntemi:** Stephane Maarek ve Adrian Cantrill'in detaylı kursları izlenmeli, TutorialsDojo denemeleri gerçek süre tutularak çözülmelidir. AWS Whitepapers dokümanları baştan sona analiz edilmelidir.
+* **Sınav Formatı:** 180 dakikalık çok paydaşlı entegrasyon soruları.
+* **Hazırlık Yöntemi:** AWS servislerinin birbirleri ile çalışma koşulları ve limitlemelerini dökümantasyonlar üzerinden pratik senaryolar eşliğinde analiz etmek.
 
----
+### 2. CKA (Certified Kubernetes Administrator)
+Sistem yönetimi ve mikroservis dağıtımı konusunda yaygın bir endüstri standardı sertifikadır.
 
-## 🧘 Başarı İçin "Monk Mode" Tavsiyeleri
-1. **Teoriye Değil, Pratiğe Odaklan:** OSCP, CKA ve DLI gibi en prestijli sınavların tamamı uygulamalıdır. Doküman okumak yetmez, laboratuvarlarda ter dökmen gerekir. Eller klavyede olmalı.
-2. **Deneme Sınavları Hayat Kurtarır:** Çoktan seçmeli ve vaka senaryolu sınavlarda (GCP, AWS, CISSP) sınav formatına, soru dilinin "tuzaklarına" alışmak konuyu bilmek kadar kritiktir.
-3. **Sistematik İzolasyon:** Girdiğin sertifika yolunda dış dünyayı kapat; sosyal medyayı kes. Günde kesintisiz en az 3 saat odaklanarak bu yüksek yoğunluklu materyali bir yaşam felsefesi haline getir.
+* **Nedir:** Konteyner orkestrasyonunda sorun giderme (troubleshooting), cluster kurulumu, bakımı ve pod yönetimi becerilerini kanıtlar.
+* **Kime Hitap Eder:** DevOps mühendisleri, sistem yöneticileri, SRE'ler.
+* **Sınav Formatı:** 2 saatlik, **%100 uygulamalı** terminal sınavıdır.
+* **Hazırlık Yöntemi:** Gerçek cluster'ları bozarak ve onararak sorunları giderme (troubleshoot) laboratuvar pratikleri.
 
 ---
 
 ## 🤝 Nasıl Katkıda Bulunurum?
-Bu repo, sadece "en elit ve masaya yumruğunu vuran" sertifikaların toplandığı özel bir inisiyatiftir. Yeni bir sertifika eklemek isterseniz, lütfen sertifikanın **uygulamalı ve sektörde ağır bir karşılığı olduğundan** emin olun.
+Bu repo açık kaynaklı bir referans listesi projesidir. Siz de yeni bir sertifika başlığı veya güncel bir bilgi eklemek isterseniz lütfen:
 
 1. Repoyu Fork'layın
-2. Yeni bir Feature Branch oluşturun (`git checkout -b feature/ElitSertifikaAdi`)
-3. Değişikliklerinizi Commit'leyin (`git commit -m 'Yeni Edge-AI sertifikası eklendi'`)
-4. Branch'inize Push'layın (`git push origin feature/ElitSertifikaAdi`)
-5. Standart şablonlarımıza uygun bir Pull Request açın!
-
-**Kodla kalın, sistemleri ayakta tutun.** 🚀
+2. Yeni bir branch oluşturun
+3. Değişikliklerinizi Commit'leyin
+4. Repoya Push'layın
+5. Belirlenen şablona (`PULL_REQUEST_TEMPLATE`) uyarak bir PR açın.

@@ -1,7 +1,7 @@
-## 🚀 PR Açıklaması (Pull Request Description)
+## PR Açıklaması
 
 **Değişiklik Özeti:**
-Bu PR hangi eksikliği gideriyor veya repoya hangi "Elit" sertifikayı ekliyor?
+Bu PR hangi eksikliği gideriyor veya repoya hangi sertifikayı ekliyor?
 
 **Kategori:**
 - [ ] Siber Güvenlik
@@ -12,12 +12,12 @@ Bu PR hangi eksikliği gideriyor veya repoya hangi "Elit" sertifikayı ekliyor?
 - [ ] Bulut Bilişim ve DevOps
 - [ ] Dokümantasyon / Düzeltme
 
-## 🎯 "Hands-on" Doğrulama (Sanity Check)
+## Doğrulama Kontrolü
 Lütfen aşağıdaki standartlara uyduğunuzu onaylayın:
-- [ ] Eklenen sertifika "CV dolduran" teorik bir set değil; gerçekten sektörel ağırlığı olan uygulamalı bir sınavdır.
-- [ ] "Nedir, Kime Hitap Eder, Sınav Formatı, Hazırlık Yöntemi" ana formatına %100 uyulmuştur.
-- [ ] Eğitim kaynakları veya laboratuvar (lab) pratikleri "Monk Mode" ve yüksek yoğunluk çerçevesinde detaylandırılmıştır.
-- [ ] Markdown sözdizimi UTF-8 formatında doğru olarak kurgulanmıştır ve görünüm hatası yoktur.
+- [ ] Eklenen sertifika veya araç ilgili endüstride yeterliliği kanıtlanmış bir yapıya sahiptir.
+- [ ] "Nedir, Kime Hitap Eder, Sınav Formatı, Hazırlık Yöntemi" ana formatına uyulmuştur.
+- [ ] Eğitim kaynakları veya laboratuvar pratikleri somut örneklere veya platformlara (lab) dayandırılmıştır.
+- [ ] Metin kişisel görüşlerden uzak, nesnel ve profesyonel bir tonda yazılmıştır.
 
-## 📝 Ek Notlar / Meta-Engineering Analizi
-İnceleyen "IT Kariyer Mimarı" için ekstra bir notunuz var mı?
+## Ek Açıklamalar
+İnceleyecek kişi için belirtmek istediğiniz ek bir not var mı?

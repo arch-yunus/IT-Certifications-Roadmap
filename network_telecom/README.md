@@ -1,32 +1,32 @@
-# 🌐 Ağ (Network) ve Telekomünikasyon Masterclass Roadmap
+# 🌐 Ağ (Network) ve Telekomünikasyon Roadmap
 
-Bulut, siber güvenlik veya gömülü sistemler... Hiçbiri ağ mimarisi olmadan çalışamaz. Ağ mühendisliği sadece kablo takmak değil, altyapıyı güvenli, ölçeklenebilir ve otomatik hale getirmektir.
+Altyapı otomasyonu, yönlendirme (routing), anahtarlama (switching) ve yazılım tanımlı ağ yapıları (SDN) konularına profesyonelleşmek isteyen uzmanlar için derlenmiştir.
 
 ## 📌 Sertifikasyon Haritası
 
 ### 1. Cisco CCNA (Cisco Certified Network Associate)
-Ağ alfabesi. OSPF, VLAN, Subnetting ve otomasyon temel bilgilerini ölçen "olmazsa olmaz" sertifika.
-* **Detay:** Router komut satırı (CLI) üzerinden sizi gerçek ağ topolojilerinde test eder.
+Ağ mühendisliğinde global temel kabul edilen başlangıç seviyesi sertifikasıdır.
+* **Detay:** Teorik bilgiyi ve temel CLI (Komut Satırı Arayüzü) kullanımını router ve switch konfigürasyon senaryolarında sınar. OSPF, VLAN yapısı gibi konuları ele alır.
 
 ### 2. Cisco CCNP Enterprise (Cisco Certified Network Professional)
-Mimari tasarım seviyesi. Sistemleri entegre etmek ve kurumsal BGP, SD-WAN, Wireless tasarım ile yoğurmak.
-* **Detay:** Bozulan bir altyapıyı Cisco IOS/IOS-XE komut satırından arıza kaydıyla (troubleshooting) bulma sanatı.
+Gelişmiş yönlendirme senaryoları ve entegrasyonlar sağlayan ileri seviye ağ uzmanlığı sertifikasıdır.
+* **Detay:** İki ayrı sınav birleşiminden oluşur. BGP, SD-WAN, Wireless tasarım ve ağ cihazlarında hata tespiti (troubleshooting) üzerine yoğunlaşır.
 
 ### 3. JNCIS / JNCIP (Juniper Networks Certified Specialist/Professional)
-İnternet servis sağlayıcıları (ISP) ve dev veri merkezlerinde yönlendirme yapan ağ mimarları için Cisco'nun doğrudan ağır sıklet rakibi.
-* **Detay:** Junos OS üzerinde mimari yapılanma ve yoğun BGP konfigürasyonu ölçülür.
+İnternet servis sağlayıcıları (ISP) ve veri merkezlerinde ağ yöneticiliği yapan mühendisler için Juniper tarafındaki yetkinlik sertifikalarıdır.
+* **Detay:** Junos OS üzerinde BGP ve yoğun yapılandırma gerektiren altyapı yetkinliklerini değerlendirir.
 
 ---
 
-## 🌩️ Laboratuvar Simülasyonu ve Network Otomasyonu
+## 🌩️ Laboratuvar Simülasyonu ve Ağ Otomasyonu
 
-Bir ağ mühendisi fiziksel cihazlarla kısıtlı kalmaz; sistemi kodla test eder.
+Mevcut ağ mimarisinde manuel donanım kurulumlarının haricinde simülasyon araçları ve otomasyon teknikleri öne çıkmaktadır.
 
-### Gerekli Sanallaştırma Ortamları
-- **EVE-NG:** Sektörün en "Heavy-weight" sanal ağ laboratuvarı. Gerçek Cisco, Juniper ve Fortinet imajlarını içe aktarıp BGP laboratuvarları kurgulayabilirsiniz.
-- **GNS3:** Kurulumu daha hafif, ancak mimari testlerde (Python Docker container'larını ağa entegre etme) muazzam esnek.
+### Sanallaştırma Ortamları
+- **EVE-NG:** Sektörde çoklu platform (Cisco, Juniper, Fortinet vb.) sanallaştırması yapabilen gelişmiş bir sanal ağ laboratuvarı yazılımı.
+- **GNS3:** Kurulum esnekliği ve çeşitli cihaz emülasyonlarını sağlayan diğer yaygın geliştirme ortamıdır.
 
 ### Network Automation (NetDevOps)
-Modern çağda `ssh` ile cihaz yapılandırmak devri kapanıyor. Otomasyon bilmeyen bir ağ mühendisi elenecektir:
-- **Ansible & Netmiko:** Yüzlerce switch ve router konfigürasyonunu bir tek `yaml` dosyası ve Python scriptinden yürütmek.
-- **YANG & NETCONF/RESTCONF:** Ağ cihazlarını "API üzerinden" JSON/XML verisi ile nesne tabanlı kontrol etme pratiği.
+Modern ağ yönetiminde geliştirilen pratikler:
+- **Ansible & Netmiko:** Açık kaynaklı otomasyon modülleriyle birçok ağ cihazının konfigürasyonunun merkezileştirilmesi.
+- **YANG & NETCONF/RESTCONF:** Ağ cihazlarını geleneksel CLI erişimi yerine programlanabilir (API tabanlı) bir model olan JSON/XML şemaları ile kontrol etmek.

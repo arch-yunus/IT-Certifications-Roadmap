@@ -1,20 +1,20 @@
 ---
-name: Feature Request / Yeni Sertifika Önerisi
-about: Elit, yüksek yoğunluklu yeni bir sertifikayı bu roadmap'e eklemek için öneri yapın.
+name: Feature Request / Yeni İçerik Önerisi
+about: Repoya yeni bir araç, kaynak veya sertifika eklemek için öneri yapın.
 title: "[FEATURE] "
 labels: enhancement
 assignees: ''
 
 ---
 
-## 🚀 Öneri Açıklaması
-Hangi sertifikanın veya konseptin eklenmesini istiyorsunuz?
+## Öneri Açıklaması
+Hangi sertifikanın veya konseptin eklenmesini istiyorsunuz? Lütfen sektördeki konumundan kısaca bahsedin.
 
-## 🎯 Nedir & Kime Hitap Eder?
-Bu sertifika neden "CV dolduran" değil de "masaya yumruğunu vuran" bir etkiye sahip? Kimler almalı?
+## Nedir & Kime Hitap Eder?
+Bu içeriğin repository'ye katacağı değeri ve uygun olduğu uzmanlık rollerini açıklayınız.
 
-## 💡 Hazırlık Yöntemi ve "Hands-on" Pratik
-Sınav veya sertifika başarımına dair "Monk Mode" tavsiyeleriniz veya laboratuvar (lab) gereksinimleriniz neler?
+## Eğitim Yöntemi Gerekçeleri
+Önerdiğiniz içeriğe ait laboratuvar pratikleri, platformlar veya dokümantasyon gereksinimleri nelerdir?
 
-## 📝 Ek Bağlam
-Varsa referans linkleri (offsec, aws training vs.) ekleyin.
+## Ek Bağlam
+Varsa referans eğitim linkleri (satıcı dokümantasyonu, simülatörler vs.) ekleyin.

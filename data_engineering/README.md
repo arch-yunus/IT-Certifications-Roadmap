@@ -1,28 +1,27 @@
-# 📊 Veri Mühendisliği ve Büyük Veri Masterclass Roadmap
+# 📊 Veri Mühendisliği ve Büyük Veri Roadmap
 
-Veri bir şirketin yakıtı, veri mühendisi ise rafinerinin mimarıdır. Bu yol haritası, gigabaytlarca anlamsız veriyi saniyeler içinde işleyip operasyonel zeka çıkartan mimarların rotasıdır.
+Büyük veri işleme (Big Data), ETL (Extract, Transform, Load) hatları kurma ve veri ambarı yönetimine odaklanan mühendisler için sertifikasyon haritasıdır.
 
 ## 📌 Sertifikasyon Haritası
 
 ### 1. Google Cloud Professional Data Engineer
-Big Data mimarisini Google Cloud ekosisteminde tasarlayan, Dataflow ve Dataproc üzerinde pipeline'lar kuran uzmanların zirvesi.
-* **Detay:** Veri akış sistemlerini performansı düşürmeden ve güvenli biçimde otomatize etme ustalığı.
+Veri mimarilerini Google Cloud araç seti etrafında kurgulayan ve bu mimarileri tasarlayan uzmanlar içindir.
+* **Detay:** Dataproc, Dataflow, BigQuery gibi çözümleri kullanarak sürdürülebilir ve performanslı veri ürünleri geliştirmeyi amaçlar.
 
 ### 2. Databricks Certified Data Engineer Professional
-Veri gölü (Data Lake) konseptini performans darboğazları olmadan yöneten Apache Spark sevdalılarına.
-* **Detay:** Karmaşık ETL pipeline'ları kurma, Delta Lake yönetimi ve "Execution Plan" okuma testi.
+Apache Spark ekosistemi ve Databricks altyapısı konusunda uzmanlığı bulunan mühendislerin tercih ettiği sertifikadır.
+* **Detay:** Delta Lake yönetimi, pipeline oluşturma aşamalarındaki performans darboğazlarını (bottleneck) tespit etme becerisini ölçer.
 
 ### 3. AWS Certified Data Engineer - Associate/Professional
-Serverless AWS bileşenleriyle veri hattı kuran mimarların tercihi.
-* **Detay:** AWS Glue, Amazon EMR, Kinesis Data Streams ve Amazon Redshift'i harmanlayarak birbiriyle konuşan streaming yapılar inşa etmek.
+AWS araçlarını kullanarak veri akış (stream) ve yığın (batch) işlemleri yürüten mimarlar içindir.
+* **Detay:** AWS Glue, Amazon EMR, Amazon Kinesis ve Redshift bileşenlerini kullanarak mimari yapı inşa etme kurgularını sınar.
 
 ---
 
-## 🛠️ Monk Mode "Hands-on" Teknoloji Yığını
+## 🛠️ Temel Teknoloji Yığını
 
-Gerçek bir veri mühendisi, araç bağımsız (vendor agnostik) düşünmeli ve açık kaynak çözümlere tapmalıdır:
+Bir veri mühendisinin operasyonel tecrübeye sahip olması beklenen güncel endüstri araçları:
 
-- **Apache Kafka / Redpanda:** Log-bazlı event stream mimarisi. Devasa veri akışlarının (clickstream, IoT sensör anlık logları) giriş kapısı.
-- **Apache Airflow / Dagster:** Karmaşık Python ETL job'larını orkestre eden zamanlayıcı (Scheduler) sistemleri.
-- **dbt (data build tool):** "T (Transform)" işlemlerini SQL kodunu yazılım mühendisliği pratikleriyle (versiyon kontrolü, dökümantasyon, test) harmanlayarak Data Warehouse içinde yapan araç.
-- **Pratik Tavsiyesi:** Google Colab veya kişisel docker-compose yapınızda Kafka -> Spark Streaming -> PostgreSQL şekline "end-to-end" gerçek zamanlı bir proje ayağa kaldırmadan sertifika sınavlarına girmeyin.
+- **Apache Kafka / Redpanda:** Log-bazlı asenkron "event streaming" mimarileri kurmak ve gerçek zamanlı sensör/kullanıcı verisi aktarımı görevleri için kullanılır.
+- **Apache Airflow / Dagster:** Karmaşık Python tabanlı ETL görevlerini belli bir takvime göre (Scheduling) ve bağımlılıklara göre orkestre eder.
+- **dbt (data build tool):** Veri dönüşüm (Transform) işlemlerinin, yazılım mühendisliği pratikleri uygulanarak (versiyon kontrolü, testler) veritabanı içerisinde yapılmasını sağlayan altyapı.

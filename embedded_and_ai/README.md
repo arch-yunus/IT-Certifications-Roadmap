@@ -1,30 +1,29 @@
-# ⚡ Gömülü Sistemler, IoT ve Edge-AI Masterclass Roadmap
+# ⚡ Gömülü Sistemler, IoT ve Edge-AI Roadmap
 
-Yazılımın fiziksel dünyayla bütünleştiği uç noktada (Edge), donanıma hükmeden, RTOS kurgulayan ve otonom yapay zeka tasarlayan mühendislerin yol haritası.
+Donanım programlama, gerçek zamanlı işletim sistemleri (RTOS) ve sınır bilişim (Edge) üzerinde çalışan yapay zeka sistemlerine odaklanan mühendisler için oluşturulmuş rotadır.
 
 ## 📌 Sertifikasyon Haritası
 
 ### 1. Arm Accredited Engineer (AAE) ve Bağlı Mimari Eğitimleri
-Donanımın en alt seviyesine inip, memory (MMU) yapılarına hükmetmek isteyen mimarlar için.
-* **Detay:** Cortex-A/R/M mimarilerinde Assembly ve C ile yüksek performanslı RTOS kodlama yetkinliğini kanıtlar.
+Donanım mimarileri ve işlemci yapılarına dair bilgi düzeyini test eden sertifika programı.
+* **Detay:** Cortex-A/R/M mimarilerinde Assembly ve C dillerinde yazılım geliştirme yetkinliğini belgelemeyi amaçlar.
 
 ### 2. NVIDIA DLI Certifications (Deep Learning Institute)
-Görüntü işleme modellerini uç cihazlarda cayır cayır çalıştıran Edge-AI mühendislerine.
-* **Detay:** Jetson cihazlar üzerinde TensorRT optimizasyonları ve YOLO modellerini sıfır gecikme ile ayağa kaldırma ustalığını ölçer.
+Görüntü işleme ve derin öğrenme modellerinin donanım üzerinde çalıştırılması ile ilgilenen yapay zeka geliştiricileri içindir.
+* **Detay:** Jetson cihazları üzerinde TensorRT optimizasyonları ve AI model kurulum (deployment) tecrübesini ölçer.
 
 ---
 
 ## ⚙️ Teknik Derinlik: Framework'ler ve Donanım
 
-Edge-AI ve Gömülü Sistemler dünyası, cihazlara komut satırından hükmetmekle başlar.
+Edge-AI ve Gömülü Sistemler çalışma alanında bilinmesi beklenen araç ve donanım konseptleri şunlardır:
 
 ### Gerekli Framework ve Araçlar
-- **ROS 2 (Robot Operating System):** Otonom sistemler ve robotik projeleri için endüstri standardı middleware. Node'lar arası haberleşmeyi DDS (Data Distribution Service) ile yapar.
-- **TensorRT (NVIDIA):** PyTorch veya TensorFlow modellerinizi alıp donanıma en uygun şekle (FP16 veya INT8) çeviren motor.
-- **FreeRTOS / Zephyr:** Gömülü sistemlerde CPU zamanını mikro saniye seviyesinde hassas yöneten gerçek zamanlı işletim sistemleri.
+- **ROS 2 (Robot Operating System):** Otonom sistemler ve robotik projeleri için kullanılan "middleware". Node haberleşmeleri DDS (Data Distribution Service) tabanlıdır.
+- **TensorRT (NVIDIA):** Mevcut modelleri (PyTorch, TensorFlow) donanım üzerinde yüksek performanslı çalışacak şekilde derleyen optimizasyon kütüphanesi.
+- **FreeRTOS / Zephyr:** Mikrodenetleyiciler için tasarlanmış gerçek zamanlı işletim sistemleri (RTOS).
 
-### "Hands-on" Donanım Pratikleri
-Sanal ortamlarda geliştirme bitmez. Ellerin donanıma değmesi şarttır:
-- **NVIDIA Jetson (Nano / Orin serileri):** Sınır bilişim ve AI testleri (Özellikle V4L2 ve GStreamer pipeline denemeleri).
-- **STM32 (ARM Cortex-M Serisi):** Kesmeler (Interrupts), DMA, I2C/SPI haberleşme protokollerini "Bare-metal" (işletim sistemsiz saf C/C++) yazarak pratik yapmak.
-- **Espressif (ESP32):** Edge-IoT güvenliği, FreeRTOS uygulamaları ve MQTT / TLS entegrasyonu testleri için.
+### Donanım Deneyimi
+- **NVIDIA Jetson Serisi:** Edge AI, görüntü işleme hatları (pipeline) ve model performans testleri geliştirmek için sıklıkla kullanılan donanımlar.
+- **STM32 Serisi:** ARM Cortex-M temelli mikrodenetleyicilerde "Bare-metal" (işletim sistemsiz ortam) geliştirmeler ve donanım birimi (I2C, SPI, DMA) programlama.
+- **Espressif (ESP32):** Edge-IoT güvenliği ve MQTT / TLS entegrasyonu testleri için kullanılan Wi-Fi & Bluetooth modülleri.
