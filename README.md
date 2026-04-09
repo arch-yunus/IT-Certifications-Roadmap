@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/banner.png" alt="IT Certifications Roadmap Banner" width="100%">
+</p>
+
 # 🚀 IT-Certifications-Roadmap
 
 Bilgi Teknolojileri (IT) sektöründe yetkinliği global çapta kanıtlamanın en prestijli yollarından biri doğru sertifikalara sahip olmaktır. 
